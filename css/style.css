@@ -11,18 +11,36 @@ body {
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   color: #4a4a4a;
 }
-h1, h2, h3, h4 {
+h1, h2, h3 {
   line-height: 1.4;
 }
 h1 {
-  font-size: 2.75em;
+  font-size: 2em;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 1.8em;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.5em
   font-weight: 700;
 }
 img {
-  width: 100%;
+  width: 100%
+}
+a {
+  color: #11698E;
+  text-decoration: none; /* No underlining */
+}
+a:visited { /* visited link */
+  color: #11698E;
+}
+a:hover {
+  color: #0F556D;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active { /* selected link */
+  color: #0495BC;
 }
