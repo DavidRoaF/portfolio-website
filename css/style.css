@@ -37,8 +37,9 @@ a {
 a:visited { /* visited link */
   color: #11698E;
 }
-a:hover {
-  color: #0F556D;
+a:hover,
+a:focus {
+  color: #08353F;
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 a:active { /* selected link */
