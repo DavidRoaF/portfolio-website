@@ -3,6 +3,9 @@ Colors Used:
 blue:#11698E
 Green: #008891
 */
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -72,6 +75,10 @@ a:active { /* selected link */
 .button.contact:hover {
   background-color: #008891;
   color: #ffffff;
+}
+/* Layout styling */
+.container {
+  padding: 0 15px;
 }
 header {
   background-color: #008891;
