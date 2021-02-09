@@ -75,4 +75,7 @@ a:active { /* selected link */
 }
 header {
   background-color: #008891;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
 }
