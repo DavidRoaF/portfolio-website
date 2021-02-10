@@ -86,6 +86,9 @@ header {
   padding: 10px 0;
   margin: 10px;
   border-bottom: 3px solid #4a4a4a;
+  box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.5);
+  position: fixed;
+  width:100%
 }
 #work .row {
   margin: 25px 0;
