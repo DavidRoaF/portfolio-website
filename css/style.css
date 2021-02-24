@@ -175,6 +175,14 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  .col-md-7 {
+    width: 60%;
+  }
+  .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 }
 /* ==============================
 X-large devices (1440px or larger)
