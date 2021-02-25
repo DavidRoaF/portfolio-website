@@ -126,14 +126,14 @@ nav > ul > li > a:active {
   color: #ffffff;
 }
 nav {
-  style: inline-block;
+  display: inline-block;
   width: 100%;
 }
 #hero {
   background-color: #008891;
 }
 nav {
-  style: inline-block;
+  display: inline-block;
   width: 100%;
 }
 #hero {
@@ -164,6 +164,7 @@ Medium devices (640px and larger)
 }
 [class*="col-"] {
   float: left;
+  padding: 0px 10px;
 }
 .row::after {
   content: "";
@@ -177,8 +178,11 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  .col-md-7 {
+  .col-lg-7 {
     width: 60%;
+  }
+  .col-lg-5 {
+    width: 40%;
   }
   .container {
   max-width: 1200px;
@@ -186,10 +190,10 @@ Large devices (1024px or larger)
   margin-right: auto;
 }
 }
-berlin-illustration {
-  width 100%,
-  max-width 100%,
-  height: auto
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 @keyframes color-change {
   0% {fill: #edc655;}
