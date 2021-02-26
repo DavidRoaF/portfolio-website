@@ -225,3 +225,8 @@ Large devices (1024px or larger)
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+.social.media {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
