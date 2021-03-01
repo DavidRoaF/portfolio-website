@@ -225,3 +225,11 @@ Large devices (1024px or larger)
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+.social-icon-container {
+  list-style: none;
+}
+.social-icon-container li {
+  display: inline-block;
+  height: 50px;
+  width: 50px
+}
