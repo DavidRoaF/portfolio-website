@@ -86,7 +86,7 @@ header {
   background-color: #008891;
   text-align: center;
   padding: 10px 0;
-  margin: 10px;
+  margin: 0px;
   border-bottom: 3px solid #4a4a4a;
   box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.5);
   position: fixed;
@@ -99,8 +99,9 @@ header {
 }
 #hero h1 {
   text-align: center; /* Centers text */
+  margin: 150px;
 }
-.logo {
+.logo svg{
   max-width: 250px;
 }
 nav > ul {
