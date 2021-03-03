@@ -84,8 +84,7 @@ a:active { /* selected link */
 }
 header {
   background-color: #008891;
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   margin: 0px;
   border-bottom: 3px solid #4a4a4a;
   box-shadow: 0px 1px 14px 0px rgba(50, 50, 50, 0.5);
@@ -104,12 +103,23 @@ header {
 .logo svg{
   max-width: 150px;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 nav > ul > li > a {
   padding: 0 15px;
@@ -125,10 +135,6 @@ nav > ul > li > a:hover {
 }
 nav > ul > li > a:active {
   color: #ffffff;
-}
-nav {
-  display: inline-block;
-  width: 100%;
 }
 #hero {
   background-color: #008891;
@@ -147,6 +153,18 @@ nav {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  nav > ul > li {
+    display: inline-block;
+  }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
+nav > ul {
+  margin: 1em 0;
+}
   header {
     text-align: unset;
     padding: 20px 0 13px;
