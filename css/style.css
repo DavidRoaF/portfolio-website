@@ -37,17 +37,21 @@ img {
 a {
   color: #11698E;
   text-decoration: none; /* No underlining */
+  background-color: inherit;
 }
 a:visited { /* visited link */
   color: #11698E;
+  background-color: inherit;
 }
 a:hover,
 a:focus {
   color: #08353F;
   text-decoration: underline; /* Underlining when hovering over a link */
+  background-color: inherit;
 }
 a:active { /* selected link */
   color: #0495BC;
+  background-color: inherit;
 }
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -244,6 +248,7 @@ Large devices (1024px or larger)
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
 @keyframes cloud-move {
   from {transform: translate(0,50px);}
   to {transform: translate(200px,50px);}
