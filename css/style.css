@@ -249,10 +249,6 @@ Medium devices (640px and larger)
     display: none;
   }
 
-  nav > ul {
-    margin: 1em 0;
-  }
-
   header {
     text-align: unset;
     padding: 20px 0 13px;
